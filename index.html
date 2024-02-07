@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zachs musical theater</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/styles.css"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="headerWrapper">
+      <header>
+        <div id="logohead">
+          <a href="#"
+            ><img
+              src="images/logo1x.png"
+              alt="logo"
+              width="45"
+              height="50"
+              scrset="images/logo1x.png, images/logo2x.png, images/logo3x.png"
+          /></a>
+          <h1>Arch's Architecture</h1>
+        </div>
+        <div>
+          <h1 id="number">8012382795</h1>
+        </div>
+      </header>
+    </div>
+    <!-- end header wrapper -->
+
+    <div id="navWrapper">
+      <nav>
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Project Examples</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- end nav wrapper -->
+
+    <div id="mainWrapper">
+      <main>
+        <picture>
+          <source
+            media="(min-width: 1000px)"
+            srcset="images/architectureLarge.webp"
+          />
+          <source
+            media="(min-width: 500px)"
+            srcset="images/architectureMedium.webp"
+          />
+          <img
+            src="images/architectureSmall.webp"
+            alt="Architecture"
+            style="width: 100%"
+          />
+        </picture>
+        <video controls>
+          <source src="media/funnyVid.mp4" type="video/mp4" />
+          <source src="media/funnyVid.webm" type="video/webm" />
+          <track
+            label="English"
+            kind="subtitles"
+            srclang="en"
+            src="media/captions-en.vtt"
+            default
+          />
+          <track
+            label="Español"
+            kind="subtitles"
+            srclang="es"
+            src="media/captions-es.vtt"
+          />
+        </video>
+        <details>
+          <summary>Video Transcript</summary>
+          <p>
+            no don't stop just keep going. Okay there was one night when or one
+            day or whatever Dad decided to do something fun so he lined up all
+            of these glasses one next to each other got can of dew you know
+            Mountain Dew it open was like all right we're going to do shots so
+            he goes over the first and he goes and fills up all of the glass
+            he's like all right we going take a shot and that's how Forced
+            family fun started for that night do
+          </p>
+        </details>
+      </main>
+    </div>
+    <!-- end main wrapper -->
+
+    <div id="footerWrapper">
+      <footer>
+        <p>
+          Copyright &copy; Arch's Architecture. All rights reserved.
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> |
+          <a href="#">Sales</a> | <a href="#">Clients</a>
+        </p>
+      </footer>
+    </div>
+    <!-- end footer wrapper -->
+  </body>
+</html>
